@@ -4,7 +4,7 @@
 
 # So you need to run (VPN) for this project to work properly
 
-### react-redux redux redux-logger redux-persist redux-thunk reselect
+### react-redux/redux/redux-logger/redux-persist/redux-thunk/reselect
 
 ### 1 git clone https://github.com/SalmanSakor/e-commerce-redux.git
 
