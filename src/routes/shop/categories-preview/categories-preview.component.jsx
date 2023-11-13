@@ -1,14 +1,13 @@
 import { Fragment } from "react";
 import { useSelector } from "react-redux";
-
 import CategoryPreview from "../../../components/shop-item/category-preview/category-preview.component";
 import {
   selectCategoriesMap,
   selectIsLoading,
 } from "../../../store/categories/categories.selector";
-
 import Laoding from "../../../components/loading/loading.component";
 import "./categories-preview.styles.scss";
+
 const CategoriesPreview = () => {
   const categoriesMap = useSelector(selectCategoriesMap);
   const isLoading = useSelector(selectIsLoading);

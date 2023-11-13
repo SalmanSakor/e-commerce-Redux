@@ -3,7 +3,6 @@ import CATEGORIES_ACTION_TYPES from "./categories.types";
 export const CATEGORIES_INITIAL_STATE = {
   isLoading: false,
   categoriesMap: {},
-
   error: null,
 };
 
